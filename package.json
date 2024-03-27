@@ -1,0 +1,28 @@
+{
+  "name": "axia-cohort-5-blog-without-persistence",
+  "version": "1.0.0",
+  "description": "axia cohort 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alahirajeffrey/axia-cohort-5-blog-without-persistence.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alahirajeffrey/axia-cohort-5-blog-without-persistence/issues"
+  },
+  "homepage": "https://github.com/alahirajeffrey/axia-cohort-5-blog-without-persistence#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
