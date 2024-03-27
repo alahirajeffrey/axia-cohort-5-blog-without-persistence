@@ -9,7 +9,7 @@ app.get("/homepage", (req, res) => {
   res.send("you have hit the homepage");
 });
 
-//
+// attaching test route
 app.get("/test", (request, response) => {
   response.status(200).json({ message: "you have hit the test page" });
 });
